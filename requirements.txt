@@ -1,0 +1,5 @@
+numpy
+torch
+tensorboard
+python-socketio
+h5py

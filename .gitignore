@@ -1,0 +1,17 @@
+# Model checkpoints
+models/
+
+# Environment folder
+rlagents/
+
+# TensorBoard logs
+runs/
+
+# HDF5 data files
+*.h5
+valid_grids.h5
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class

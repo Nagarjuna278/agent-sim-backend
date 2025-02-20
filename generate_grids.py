@@ -51,7 +51,7 @@ def generate_valid_grid():
                 break
 
         # Place obstacles (value 1)
-        num_obstacles = np.random.randint(1, 26)  # 1 to 25 obstacles
+        num_obstacles = np.random.randint(1, 50)  # 1 to 50 obstacles
         obstacle_positions = set()
 
         while len(obstacle_positions) < num_obstacles:

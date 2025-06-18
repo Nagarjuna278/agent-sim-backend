@@ -17,5 +17,9 @@ __pycache__/
 *$py.class
 
 *.pth
+!Runner_GridMapStep2.5M.pth
+!Catcher_GridMapStep2.5M.pth
 
-media/
+media/texts/
+media/images/
+media/videos/

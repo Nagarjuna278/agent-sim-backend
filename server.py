@@ -8,8 +8,8 @@ sio = socketio.AsyncServer(async_mode='asgi')
 app = socketio.ASGIApp(sio)
 
 # Load models
-runner_network = torch.load('runner_model.pth')
-catcher_network = torch.load('catcher_model.pth')
+runner_network = torch.load('models/runner_network_episode_0.pth')
+catcher_network = torch.load('models/catcher_network_episode_0.pth')
 
 @sio.event
 async def connect(sid, environ):
